@@ -7,7 +7,10 @@ const nextConfig = {
   },
   images: {
     domains: ['via.placeholder.com'],
+    unoptimized: true,
   },
+  basePath: '/Tech-Congo-site',
+  assetPrefix: '/Tech-Congo-site',
 }
 
 export default nextConfig
