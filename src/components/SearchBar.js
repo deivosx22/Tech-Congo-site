@@ -15,30 +15,17 @@ const translations = {
   }
 }
 
-// Custom debounce function
-const debounce = (func, delay) => {
-  let timeoutId;
-  return (...args) => {
-    if (timeoutId) {
-      clearTimeout(timeoutId);
-    }
-    timeoutId = setTimeout(() => {
-      func.apply(null, args);
-    }, delay);
-  };
-};
-
 export default function SearchBar() {
   const [searchTerm, setSearchTerm] = useState('')
   const router = useRouter()
   const { locale } = useContext(LanguageContext)
 
-  const debouncedSearch = useCallback(
-    debounce((term) => {
+  const debouncedSearch = useCallback((term) => {
+    const timeoutId = setTimeout(() => {
       router.push(`/shop?search=${encodeURIComponent(term)}`)
-    }, 300),
-    [router]
-  )
+    }, 300)
+    return () => clearTimeout(timeoutId)
+  }, [router])
 
   const handleSearch = (e) => {
     e.preventDefault()
