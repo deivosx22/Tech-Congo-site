@@ -7,10 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export:en": "next build && next export -o out/en",
-    "export:fr": "next build && next export -o out/fr",
+    "export:en": "next build",
+    "export:fr": "next build",
     "export": "npm run export:en && npm run export:fr",
-    "predeploy": "npm run build && npm run export && touch out/.nojekyll",
+    "predeploy": "npm run build && npm run export && echo.> out/.nojekyll",
     "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
