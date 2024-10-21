@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="max-w-2xl mx-auto">
       <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
-      <p className="mb-6">Have a question or need assistance? Fill out the form below and we'll get back to you as soon as possible.</p>
+      <p className="mb-6">Have a question or need assistance? Fill out the form below and we&apos;ll get back to you as soon as possible.</p>
       <form className="space-y-4">
         <div>
           <label htmlFor="name" className="block mb-1">Name</label>

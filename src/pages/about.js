@@ -3,7 +3,7 @@ export default function About() {
     <div className="max-w-2xl mx-auto">
       <h1 className="text-4xl font-bold mb-6">About Tech Congo</h1>
       <p className="mb-4">
-        Tech Congo is your premier destination for cutting-edge technology and gadgets. Founded in 2023, we've quickly become a leader in providing high-quality tech products to customers worldwide.
+        Tech Congo is your premier destination for cutting-edge technology and gadgets. Founded in 2023, we&apos;ve quickly become a leader in providing high-quality tech products to customers worldwide.
       </p>
       <p className="mb-4">
         Our mission is to make the latest technology accessible to everyone. We carefully curate our product selection to ensure we offer only the best and most innovative items on the market.
@@ -19,7 +19,7 @@ export default function About() {
         <li>Expert advice and support</li>
       </ul>
       <p>
-        Thank you for choosing Tech Congo. We're excited to be part of your tech journey!
+        Thank you for choosing Tech Congo. We&apos;re excited to be part of your tech journey!
       </p>
     </div>
   )

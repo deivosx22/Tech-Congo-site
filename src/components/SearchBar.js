@@ -1,4 +1,4 @@
-import { useState, useContext, useCallback, useRef } from 'react'
+import { useState, useContext, useCallback } from 'react'
 import { useRouter } from 'next/router'
 import { LanguageContext } from '../context/LanguageContext'
 
@@ -37,7 +37,7 @@ export default function SearchBar() {
     debounce((term) => {
       router.push(`/shop?search=${encodeURIComponent(term)}`)
     }, 300),
-    []
+    [router]
   )
 
   const handleSearch = (e) => {
