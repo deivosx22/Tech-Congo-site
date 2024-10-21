@@ -1,0 +1,21 @@
+{
+  "home": "Accueil",
+  "shop": "Boutique",
+  "about": "À propos",
+  "contact": "Contact",
+  "cart": "Panier",
+  "welcome": "Bienvenue chez Tech Congo",
+  "discover": "Découvrez les dernières technologies et gadgets.",
+  "shopNow": "Acheter maintenant",
+  "ourProducts": "Nos produits",
+  "searchProducts": "Rechercher des produits...",
+  "search": "Rechercher",
+  "noProductsFound": "Aucun produit trouvé correspondant à votre recherche.",
+  "viewDetails": "Voir les détails",
+  "addToCart": "Ajouter au panier",
+  "total": "Total",
+  "proceedToCheckout": "Procéder au paiement",
+  "yourCart": "Votre panier",
+  "cartEmpty": "Votre panier est vide.",
+  "remove": "Supprimer"
+}

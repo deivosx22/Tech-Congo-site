@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Congo Tech E-commerce Website
+
+Congo Tech is a modern, responsive e-commerce website built with Next.js and Tailwind CSS. It offers a seamless shopping experience for tech products, with features like product browsing, cart management, and multi-language support.
+
+## Features
+
+- Responsive design that works on desktop and mobile devices
+- Product catalog with sorting and filtering capabilities
+- Shopping cart functionality
+- User-friendly product search with debounce
+- Pagination for efficient product browsing
+- Internationalization (i18n) support for English and French
+- Custom notification system for user feedback
+- SEO-friendly with proper meta tags
+- Accessibility improvements with ARIA labels
+- Performance optimizations including memoization and lazy loading
+
+## Tech Stack
+
+- Next.js
+- React
+- Tailwind CSS
+- Context API for state management
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (version 14 or later)
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/congo-tech-website.git
+   cd congo-tech-website
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```
+   npm install
+   # or
+   yarn install
+   ```
 
-## Learn More
+3. Run the development server:
+   ```
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/src/pages`: Next.js pages
+- `/src/components`: React components
+- `/src/context`: React context for state management
+- `/src/styles`: Global styles and Tailwind CSS configuration
+- `/src/translations`: Language files for i18n
+- `/public`: Static assets
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project can be deployed using Firebase Hosting. For detailed instructions on setting up Firebase and deploying the website, please refer to the [FIREBASE_SETUP.md](./FIREBASE_SETUP.md) file.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## User Guide
+
+A comprehensive user guide is available to help non-technical users understand how to use the Congo Tech website. You can find it in two formats:
+
+1. Markdown: [USER_GUIDE.md](./USER_GUIDE.md)
+2. HTML: [user-guide.html](./public/user-guide.html)
+
+To share the project with non-developers or potential customers:
+
+1. Deploy the website using Firebase Hosting (see [FIREBASE_SETUP.md](./FIREBASE_SETUP.md)).
+2. Share the deployed website URL with your audience.
+3. Provide the link to the user guide (e.g., https://your-firebase-url.web.app/user-guide.html).
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.

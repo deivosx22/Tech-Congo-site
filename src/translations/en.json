@@ -1,0 +1,21 @@
+{
+  "home": "Home",
+  "shop": "Shop",
+  "about": "About",
+  "contact": "Contact",
+  "cart": "Cart",
+  "welcome": "Welcome to Tech Congo",
+  "discover": "Discover the latest in technology and gadgets.",
+  "shopNow": "Shop Now",
+  "ourProducts": "Our Products",
+  "searchProducts": "Search products...",
+  "search": "Search",
+  "noProductsFound": "No products found matching your search.",
+  "viewDetails": "View Details",
+  "addToCart": "Add to Cart",
+  "total": "Total",
+  "proceedToCheckout": "Proceed to Checkout",
+  "yourCart": "Your Cart",
+  "cartEmpty": "Your cart is empty.",
+  "remove": "Remove"
+}
